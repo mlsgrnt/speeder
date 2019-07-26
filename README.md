@@ -6,3 +6,5 @@ Holding down on the screen shows coordinates as well as altitude information.
 
 To-Do:
 - [ ] Read km/h or mp/h from user's locale
+
+![](Screenshot.png)
