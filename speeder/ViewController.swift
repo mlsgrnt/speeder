@@ -49,7 +49,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         mainLabel.text = String(Int(speed))
         
         // Get Coordiantes
-        let coordsString = String(format: "%.4f", locations[0].coordinate.latitude) + ", " + String(format: "%.4f", locations[0].coordinate.longitude)
+        let coordsString = String(format: "%.4f", locations[0].coordinate.latitude) + ", " + String(format: "%.4f", locations[0].coordinate.longitude) + " ±" + String(round(locations[0].horizontalAccuracy)) + "m"
         coordsLabel.text = coordsString
         
         // Get altitude
